@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$translucent" "1"
+	"$baseTexture" "vgui\replay\thumbnails\health_over_bg"
+	
+	"$alpha" "1"
+	"$vertexcolor"	"1"
+	"$color" "{ 153 155 203 }"
+	"$no_fullbright"	"1"	
+	"$vertexalpha"	"1"
+	"$ignorez"	"1"	
+}
