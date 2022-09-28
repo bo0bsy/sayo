@@ -29,19 +29,23 @@ Scheme
 		"M0reRed"											"200 65 55 255"
 		
 		"TanLight"											"235 235 235 255"
+		"HudWhite"											"235 235 235 255"
+		"HudOffWhite"										"235 235 235 255"
+		"ProgressOffWhite"									"235 235 235 255"
+		"ProgressOffWhiteTransparent"						"235 235 235 128"	
 
-		"Blank"				"0 0 0 0"
+		"Blank"												"0 0 0 0"
 	
-		"RedTeam" 			"200 65 55 200"				//Semi-transparent red team color for hud bg's 200 65 55
-		"RedTeamS" 			"200 65 55 255"				//Solid red team color for hud bg's
-		"HUDRedTeamSolid"	"200 65 55 255"	
-		"BlueTeam"			"86 133 201 200"			//Semi-transparent blue team color for hud bg's 106 153 221 210
-		"BlueTeamS"			"86 133 201 255"			//Solid blue team color for hud bg's 86 133 201 200
-		"HUDBlueTeamSolid"	"86 133 201 255
+		"RedTeam" 											"200 65 55 200"				//Semi-transparent red team color for hud bg's 200 65 55
+		"RedTeamS" 											"200 65 55 255"				//Solid red team color for hud bg's
+		"HUDRedTeamSolid"									"200 65 55 255"	
+		"BlueTeam"											"86 133 201 200"			//Semi-transparent blue team color for hud bg's 106 153 221 210
+		"BlueTeamS"											"86 133 201 255"			//Solid blue team color for hud bg's 86 133 201 200
+		"HUDBlueTeamSolid"									"86 133 201 255
 		
-		"LightGray"			"212 212 212 255"
-		"Metal"				"137 159 179 255"
-		"Gray"				"165 165 165 255"		
+		"LightGray"											"212 212 212 255"
+		"Metal"												"137 159 179 255"
+		"Gray"												"165 165 165 255"		
 		
 	}
 	

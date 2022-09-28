@@ -13,6 +13,18 @@
 	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
 	HudArenaClassLayout 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 
+	"BuildingAnchor"
+	{
+		"ControlName"	"EditablePanel"	"fieldName"	"BuildingAnchor"		
+		"visible"	"0"	"enabled"	"1"		
+		"xpos"	"-8"	"ypos"	"60"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"		
+		"alpha"	"0"
+	}
+
+	"BuildingStatus_Spy"	{	"fieldName"	"BuildingStatus_Spy"	"wide"	"f0"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"		"pin_to_sibling"	"BuildingAnchor"	}
+
+	"BuildingStatus_Engineer"	{	"fieldName"	"BuildingStatus_Engineer"	"wide"	"f0"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"		"pin_to_sibling"	"BuildingAnchor"	}
+
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"

@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldname"	"Damage 3"				
 			"xpos"	"0"	"ypos"	"5"	"zpos"	"99"	"wide"	"50"	"tall"	"35"				
-			"visible"	"1"	"enabled"	"1"	"command"	"engine hud_combattext_red 50; hud_combattext_green 255; hud_combattext_blue 187"	"textinsetx"	"9999"	"actionsignallevel"	"2"	"proportionaltoparent"	"1"					
+			"visible"	"1"	"enabled"	"1"	"command"	"engine hud_combattext_red 153; hud_combattext_green 155; hud_combattext_blue 203"	"textinsetx"	"9999"	"actionsignallevel"	"2"	"proportionaltoparent"	"1"					
 			"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"						
 			"use_proportional_insets"	"1"				
 			"paintbackground"	"1"	"PaintBackgroundType"	"2"				
@@ -106,7 +106,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldname"	"Xhair 4"			
 			"xpos"	"0"	"ypos"	"5"	"zpos"	"100"	"wide"	"50"	"tall"	"35"			
-			"visible"	"1"	"enabled"	"1"	"command"	"engine cl_crosshair_red 50; cl_crosshair_green 255; cl_crosshair_blue 187"	"textinsetx"	"9999"	"actionsignallevel"	"2"	"proportionaltoparent"	"1"				
+			"visible"	"1"	"enabled"	"1"	"command"	"engine cl_crosshair_red 153; cl_crosshair_green 155; cl_crosshair_blue 203"	"textinsetx"	"9999"	"actionsignallevel"	"2"	"proportionaltoparent"	"1"				
 			"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"					
 			"paintbackground"	"1"	"PaintBackgroundType"	"2"			
 			"defaultBgColor_override"	"153 155 203 255"	"armedBgColor_override"	"153 155 203 180"	"depressedBgColor_override"	"153 155 203 255"				

@@ -1,16 +1,16 @@
-#base "base/hud_obj_tele_exit.res"
+#base "base/hud_obj_sentrygun_disp.res"
 
-"Resource/UI/hud_obj_tele_exit.res"
+"Resource/UI/hud_obj_sentrygun_disp.res"
 {
 	"Background"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"NotBuiltPanel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 
-	"BuildingStatusItem"	{	"tall"	"35"	}
-	"Icon_Teleport_Exit"
+	"BuildingStatusItem"	{	"wide"	"150"	"tall"	"35"	}
+	"Icon_Sentry_1"
 	{
-		"xpos"	"12"	"ypos"	"0"
+		"xpos"	"13"	"ypos"	"-5"	"wide"	"30"	"tall"	"30"
 		"proportionaltoparent"	"1"
-        "alpha"	"150"
+		"alpha"	"150"
 	}
 	"BuiltPanel"
 	{
@@ -59,18 +59,10 @@
 		"RunningPanel"
 		{
 			"xpos"	"rs1"	"ypos"	"cs-0.5"	"wide"	"f44"	"tall"	"f0"	"proportionaltoparent"	"1"
-			"UpgradeIcon"
-			{
-				"ypos"	"cs-0.5"	"wide"	"9"	"tall"	"9"
-				"proportionaltoparent"	"1"
-				"alpha"	"150"
-			}
-			"Upgrade"
-			{
-				"ypos"	"cs-0.5"	"wide"	"30"	"tall"	"9"
-				"proportionaltoparent"	"1"
-				"alpha"	"150"
-			}
+			"KillIcon"	{	"ypos"	"4"	"wide"	"9"	"tall"	"9"	"alpha"	"150"	}
+			"KillsLabel"	{	"font"	"surface8"	"ypos"	"2"	"wide"	"f15"	"tall"	"11"	"textAlignment"	"west"	"alpha"	"150"	}
+			"ShellIcon"	{	"ypos"	"16"	"wide"	"9"	"tall"	"9"	"alpha"	"150"	}
+			"Shells"	{	"ypos"	"16"	"wide"	"30"	"tall"	"9"	"alpha"	"150"	}
 		}
 		"AlertTray"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 		"WrenchIcon"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
