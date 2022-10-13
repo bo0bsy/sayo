@@ -127,7 +127,7 @@
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"DarkBackground"
 		"border"		"QuickplayBorder"
 
 		"PlayWithFriendsExplanationTitle"

@@ -1,81 +1,39 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"									"5"
-		}
-	}
-	
 	"BlueTimer"
 	{
-		"ControlName"								"CTFHudTimeStatus"
-		"fieldName"									"BlueTimer"
-		"xpos"										"26"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		
+		"ControlName"	"CTFHudTimeStatus"	"fieldName"	"BlueTimer"
+		"xpos"	"2"	"ypos"	"0"	"zpos"	"6"	"wide"	"40"	"tall"	"30"
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		"TimePanelValue"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TimePanelValue"
-			"font"									"M0refont14Bold"
-			"fgcolor"								"White"
-			"xpos"									"36"
-			"ypos"									"1"
-			"zpos"									"3"
-			"wide"									"33"
-			"tall"									"18"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"0:00"
-			"fillcolor"		"0 0 0 160"
-			"bgcolor_override"		"0 0 0 160"
+			"ControlName"	"CExLabel"	"fieldName"	"TimePanelValue"
+			"xpos"	"cs-0.5"	"ypos"	"-3"	"zpos"	"6"	"wide"	"f0"	"tall"	"f0"			
+			"font"	"M0refont14Bold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+			"textAlignment"	"center"	"labelText"	"0:00"			
+			"fgcolor"	"M0reBlue"			
 		}	
 	}
-
 	"RedTimer"
 	{
-		"ControlName"								"CTFHudTimeStatus"
-		"fieldName"									"RedTimer"
-		"xpos"										"76"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"50"
-		"visible"									"1"
-		"enabled"									"1"
-		
+		"ControlName"	"CTFHudTimeStatus"	"fieldName"	"RedTimer"		
+		"xpos"	"rs1-2"	"ypos"	"0"	"zpos"	"6"	"wide"	"40"	"tall"	"30"
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		"TimePanelValue"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TimePanelValue"
-			"font"									"M0refont14Bold"
-			"fgcolor"								"White"
-			"xpos"									"23"
-			"ypos"									"1"
-			"zpos"									"3"
-			"wide"									"33"
-			"tall"									"18"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"0:00"
-			"fillcolor"		"0 0 0 160"
-			"bgcolor_override"		"0 0 0 160"
+			"ControlName"	"CExLabel"	"fieldName"	"TimePanelValue"
+			"xpos"	"cs-0.5"	"ypos"	"-3"	"zpos"	"6"	"wide"	"f0"	"tall"	"f0"			
+			"font"	"M0refont14Bold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+			"textAlignment"	"center"	"labelText"	"0:00"			
+			"fgcolor"	"M0reRed"			
 		}	
 	}
 	
 	"ActiveTimerBG"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"ActiveTimerBG"
-		"visible"	"0"	"enabled"	"0"
-		"fillcolor"	"blank"	
+		"ControlName"	"ImagePanel"	"fieldName"	"ActiveTimerBG"		
+		"xpos"	"0"	"ypos"	"-4"	"zpos"	"1"	"wide"	"44"	"tall"	"20"	
+		"visible"	"0"	"enabled"	"1"	"scaleImage"	"1"			
+		"fillcolor"	"0 0 0 255"	
 	}
 }

@@ -1,8 +1,11 @@
 hudanimations_manifest
 {	
 	// custom animations
-	"file"	"scripts/hudanimations_m0re.txt"
-	"file"	"scripts/hudanimations_removed.txt"
+	"file"	"scripts/animations/health.txt"
+	"file"	"scripts/animations/ammo.txt"
+	"file"	"scripts/animations/uber.txt"
+	"file"	"scripts/animations/misc.txt"
+	"file"	"scripts/animations/removed.txt"
 	
 	// default to reference
 	"file"	"scripts/base/hudanimations_tf.txt"	

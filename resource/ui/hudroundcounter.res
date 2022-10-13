@@ -78,7 +78,7 @@
 		"pinCorner"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"0 0 0 160"
+		"defaultBgColor_Override"		"Background"
 		"border_default"				"noborder"		
 		"PaintBackgroundType""0"
         "textinsety" "99"

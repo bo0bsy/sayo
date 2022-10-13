@@ -21,7 +21,7 @@
 //			"visible"		"1"
 //			"PaintBackgroundType"	"0"
 //			"border"		"NoBorder"
-//			"bgcolor_override"	"0 0 0 160"
+//			"bgcolor_override"	"Background"
 //			"proportionaltoparent"	"1"
 //		}
 

@@ -2,16 +2,16 @@
 
 "Resource/HudLayout.res"
 {	
-	HudTeamSwitch	{	"fieldName"	"HudTeamSwitch"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}		
-	HudArenaCapPointCountdown	{	"fieldName"	"HudArenaCapPointCountdown"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-	HudStalemate	{	"fieldName"	"HudStalemate"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudBowCharge	{	"fieldName"	"HudBowCharge"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	StatPanel	{	"fieldName"	"StatPanel"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudArenaNotification	{	"fieldName"	"HudArenaNotification"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudTeamGoal	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudTeamGoalTournament	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-	HudArenaClassLayout 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudTeamSwitch	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}		
+	HudArenaCapPointCountdown	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	HudStalemate	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudBowCharge	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	StatPanel	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudArenaNotification	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudTeamGoal	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudTeamGoalTournament	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudAlert	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	HudArenaClassLayout 	{	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 
 	"BuildingAnchor"
 	{
@@ -26,54 +26,17 @@
 	"BuildingStatus_Engineer"	{	"fieldName"	"BuildingStatus_Engineer"	"wide"	"f0"	"tall"	"f0"	"visible"	"1"	"enabled"	"1"		"pin_to_sibling"	"BuildingAnchor"	}
 
 	HudWeaponAmmo
-	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c76"	[$WIN32]
-		"ypos"	"r183"	[$WIN32]
-		"wide"	"320"
-		"tall"	"120"
-	}
+	{	"xpos"	"0"		"ypos"	"0"		"wide"	"f0"	"tall"	"f0"	}
 	
 	HudKothTimeStatus
 	{
-		"fieldName" 								"HudKothTimeStatus"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"xpos"										"c-96"
-		"ypos"										"5"
-		"wide"										"200"
-		"tall"										"160"
+		"xpos"	"cs-0.5"	"ypos"	"0"	"wide"	"86"	"tall"	"30"
 		
-		"blue_active_xpos"							"54"
-	
-		"red_active_xpos"							"104"
-
+		"blue_active_xpos"	"9999"	"red_active_xpos"	"9999"
 	}	
-
-	HudItemEffectMeter
-	{
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"xpos"			"0"	[$X360]
-		"ypos"			"0"	[$X360]
-		"wide"			"f0"
-		"tall"			"480"
-	}
 	
 	HudMedicCharge
-	{
-		"fieldName"		"HudMedicCharge"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"			"5"		//c-95
-		"ypos"			"2"		//"r164"	
-		"wide"			"f0"		
-		"tall"			"600"		//100
-		"MeterFG"		"White"
-		"MeterBG"		"Black"
-	}
+	{	"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	}
 	
 	HudDemomanCharge
 	{
@@ -141,63 +104,17 @@
 	}
 	
 	CDamageAccountPanel
-	{
-		"fieldName"									"CDamageAccountPanel"
-		"xpos"										"-5"
-		"ypos"										"-5"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"PaintBackgroundType"						"2"
-	}
+	{	"zpos"	"1"	"wide"	"f0"	"tall"	"f0"	}
 	
 	DisguiseStatus
-	{
-		"fieldName" 								"DisguiseStatus"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"60"
-		"wide"										"f0"
-		"tall"										"480"
-	}
+	{	"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	}
 
 	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c54"
-		"wide"	 	"252"
-		"tall"	 	"34"
-		"priority"	"40"
-	}
-	
-	CSpectatorTargetID
-	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c120"
-		"wide"	 	"252"
-		"tall"	 	"34"
-		"priority"	"40"
-	}
-	
+	{	"xpos"	"cs-0.5"	"ypos"	"r200"	"wide"	"f0"	"tall"	"50"	}
 	CSecondaryTargetID
-	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"c129"
-		"wide"	 	"252"
-		"tall"	 	"34"
-		"priority"	"35"
-	}
+	{	"xpos"	"cs-0.5"	"ypos"	"r166"	"wide"	"f0"	"tall"	"50"	}
+	CSpectatorTargetID
+	{	"xpos"	"cs-0.5"	"ypos"	"250"	"wide"	"f0"	"tall"	"50"	} 
 	
 	BuildingStatus_Engineer
 	{
@@ -211,7 +128,7 @@
 		
 		"PaintBackgroundType"						"2"
 	}
-		
+
 	HudRoundTimerHudRoundTimer
 	{
 		"fieldName" 								"HudRoundTimer"
@@ -239,30 +156,23 @@
 
 	HudDeathNotice
 	{
-		"fieldName" 								"HudDeathNotice"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"xpos"	 									"r640"
-		"ypos"	 									"35"
-		"wide"	 									"628"
-		"tall"	 									"468"
+		"xpos"	"r640"	"ypos"	"35"
 
-		"MaxDeathNotices" 							"12"
-		"IconScale"	  								"0.35"
-		"LineHeight"	  							"12"
-		"LineSpacing"	 							"0"
-		"CornerRadius"	  							"0"
-		"RightJustify"	  							"1"
+		"MaxDeathNotices"	"12"
 		
-		"TextFont"									"m0refont8"
+		"IconScale"	"0.35"
 		
-		"TeamBlue"									"BlueTeamS"
-		"TeamRed"									"RedTeamS"
-		"IconColor"									"235 235 235 255"
-		"LocalPlayerColor"							"12 12 12 255"
+		"LineHeight"	"9"	"LineSpacing"	"0"
+		
+		"CornerRadius"	"4"
+		
+		"TextFont"	"Killfeed"
+		
+		"TeamBlue"	"BlueTeamS"	"TeamRed"	"RedTeamS"
+		
+		"IconColor"	"235 235 235 255"	"LocalPlayerColor"	"12 12 12 255"
 
-		"BaseBackgroundColor"						"0 0 0 160"
-		"LocalBackgroundColor"						"235 235 235 200"
+		"BaseBackgroundColor"	"0 0 0 160"	"LocalBackgroundColor"	"235 235 235 200"
 	}
 	
 	HudSpellMenu
@@ -293,15 +203,8 @@
 
 	"WinPanel"
 	{
-		"fieldName"									"WinPanel"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"zpos"										"6"
-		"proportionaltoparent"						"1"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	"zpos"	"6"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel

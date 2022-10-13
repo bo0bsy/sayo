@@ -1,0 +1,66 @@
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage	Alpha	"255"	Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage	Alpha	"0"	Linear 	0.2 0.4
+	
+//	Animate PlayerStatusHealthValue	FgColor	"black"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValue	BgColor	"buff"	Linear 	0.0	0.0
+	
+	Animate PlayerStatusHealthValueShadow	FgColor	"buff"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValueShadow	Alpha	"255"	Linear 	0.0	0.0	
+	
+	Animate PlayerStatusHealthvalueSpecgui	Alpha	"255"	linear 	0.0 0.01
+	Animate PlayerStatusHealthvalueSpecgui	FgColor	"0 255 100 255"	Accel 	0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseLoop	{	RunEvent HudHealthBonusPulse	0.0	}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse	0.0	StopEvent HudHealthBonusPulseLoop	0.0
+	
+//	Animate PlayerStatusHealthValue	FgColor	"Health Numbers"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValue	BgColor	"Background"	Linear 	0.0	0.0
+	
+	Animate PlayerStatusHealthValueShadow	FgColor	"Black"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValueShadow	Alpha	"0"	Linear 	0.0	0.0		
+	
+	Animate PlayerStatusHealthvalueSpecguiLow	Alpha	"0"	Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecguiLow	FgColor	"0 0 0 0"	Accel 	0.0 0.0
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage	Alpha	"0"	Linear 	0.0 0.0
+
+//	Animate PlayerStatusHealthValue	FgColor	"black"	Linear 	0.0	0.0	
+	Animate PlayerStatusHealthValue	BgColor	"low"	Linear 	0.0	0.0
+	
+	Animate PlayerStatusHealthValueShadow	FgColor	"Low"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValueShadow	Alpha	"255"	Linear 	0.0	0.0		
+	
+	Animate PlayerStatusHealthValue	Alpha	"255"	Linear 	0.0 0.01
+	Animate PlayerStatusHealthValue	FgColor	"Health Numbers"	Accel 	0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseLoop	{	RunEvent HudHealthDyingPulse	0.0	}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse	0.0	StopEvent HudHealthDyingPulseLoop	0.0
+
+//	Animate PlayerStatusHealthValue	FgColor	"Health Numbers"	Linear 	0.0	0.0	
+	Animate PlayerStatusHealthValue	BgColor	"Background"	Linear 	0.0	0.0
+	
+	Animate PlayerStatusHealthValueShadow	FgColor	"Black"	Linear 	0.0	0.0
+	Animate PlayerStatusHealthValueShadow	Alpha	"0"	Linear 	0.0	0.0		
+	
+	Animate PlayerStatusHealthvalueSpecgui	Alpha	"255"	Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui	FgColor	"Health Numbers"	Accel 	0.0 0.0
+}

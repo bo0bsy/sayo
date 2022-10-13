@@ -1,3 +1,5 @@
+#base "customfonts.res"
+
 Scheme
 {
 	Fonts
@@ -21,72 +23,12 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		CoolveticaSmallest
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CoolveticaSmall
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		CoolveticaMedium
-		{
-			"1"
-			{
-				"name"										"Coolvetica"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		VerdanaMenu
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont6
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"6"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		M0refont8
 		{
 			"1"
 			{
 				"name"										"Surface-Medium"
 				"tall"										"8"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		M0refont9
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"9"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
@@ -141,6 +83,17 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont12Shadow
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}		
 		M0refont12Bold
 		{
 			"1"
@@ -339,12 +292,12 @@ Scheme
 				"outline"									"1"
 			}
 		}
-		M0refont23Bold
+		M0refont16Bold
 		{
 			"1"
 			{
 				"name"										"Catamaran SemiBold"
-				"tall"										"23"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"0"
@@ -776,6 +729,49 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"Killfeed"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"8"
+				"antialias" 								"0"
+				"weight"									"700"
+				"dropshadow"								"1"
+			}
+		}		
+		"DataLabel"
+		{
+			"1"
+			{
+				"name"										"Surface-Uber"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Damage"
+		{
+			"1"
+			{
+				"name"										"Surface-Uber"
+				"tall"										"25"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Uber"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}		
 		"BlocksSharp64"
 		{
 			"1"
@@ -786,17 +782,5 @@ Scheme
 				"antialias" 								"0"
 			}
 		}
-	}
-	
-	CustomFontFiles
-	{
-		"8" 	{	"font"	"resource/fonts/ProductSans-Regular.ttf"	"name"	"Product Sans"	}		
-		"9" 	{	"font"	"resource/fonts/COOLVETI.TTF"	"name"	"Coolvetica"	}	
-		"10" 	{	"font"	"resource/fonts/Blocks.ttf"	"name"	"Blocks"	}
-		"11"	{	"font" "resource/fonts/m0rehud icons.ttf"	"name"	"m0rehud Icons V4"	}
-		"12" 	{	"font"	"resource/fonts/Product Sans Bold.ttf"	"name"	"Product Sans Bold"	}
-		"13" 	{	"font"	"resource/fonts/HeavyCaps.ttf"	"name"	"HeavyCaps"	}
-		"14" 	{	"font"	"resource/fonts/Surface_Medium.otf"	"name"	"Surface-Medium"	}
-		"15" 	{	"font"	"resource/fonts/Catamaran-SemiBold.ttf"	"name"	"Catamaran SemiBold"	}
 	}
 }

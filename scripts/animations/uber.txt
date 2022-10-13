@@ -1,0 +1,19 @@
+event HudMedicCharged
+{
+	Animate ChargeLabelBig	Alpha	"255"	Linear 	0.0 0.01
+	Animate ChargeLabelBig	FgColor	"Full Ubercharge"	Accel 	0.0 0.0
+
+	Animate ChargeMeter	FgColor 	"Ubercharge Bar"	Accel 	0.0 0.0
+	
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicChargedLoop	{	RunEvent HudMedicCharged	0.0	}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged	0.0	StopEvent HudMedicChargedLoop	0.0
+	
+	Animate	ChargeLabelBig	FgColor	"Ubercharge"	Linear	0.0 0.0001
+	Animate	ChargeMeter	FgColor	"Ubercharge"	Linear 	0.0 0.0001
+}

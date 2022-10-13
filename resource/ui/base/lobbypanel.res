@@ -197,7 +197,7 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"DarkBackground"
 		"border"		"QuickplayBorder"
 
 		"SearchActiveTitle"
@@ -610,7 +610,7 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"DarkBackground"
 			"border"		"QuickplayBorder"
 
 			"NavToRelay"	"InviteButton"
@@ -694,7 +694,7 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"DarkBackground"
 			"border"		"QuickplayBorder"
 		}
 
@@ -708,7 +708,7 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"DarkBackground"
 			"border"		"QuickplayBorder"
 		}
 	}

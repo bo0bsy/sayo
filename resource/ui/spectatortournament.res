@@ -42,7 +42,7 @@
 				"tall"        "20"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"0 0 0 160"		//"255 125 0 175"
+				"fillcolor"		"Background"		//"255 125 0 175"
 				"visible"			"1"
 				"enabled"			"1"
 			}
@@ -101,7 +101,7 @@
 				"tall"			"21"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"0 0 0 160"
+				"bgcolor_override"		"Background"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm

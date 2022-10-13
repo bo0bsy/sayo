@@ -120,7 +120,7 @@
 				"alpha"			"255"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"			"0 0 0 160"
+				"fillcolor"			"Background"
 			}
 			
 			"classimagebg"
@@ -424,9 +424,9 @@
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"center"
-		"bgcolor"		"0 0 0 160"
+		"bgcolor"		"Background"
 		"use_proportional_insets"	"1"
-		"bgcolor_override"		"0 0 0 160"
+		"bgcolor_override"		"Background"
 		
 		if_readymode
 		{
@@ -496,8 +496,8 @@
 		"labelText"		"%redstate%"
 		"textAlignment"		"center"
 		"use_proportional_insets"	"1"
-		"bgcolor"		"0 0 0 160"
-		"bgcolor_override"		"0 0 0 160"
+		"bgcolor"		"Background"
+		"bgcolor_override"		"Background"
 	
 
 		if_readymode

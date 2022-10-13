@@ -34,7 +34,7 @@
 		"zpos"			"-1"
 		"wide"			"255"
 		"tall"			"258"
-		"fillcolor"		"0 0 0 160"		//175
+		"fillcolor"		"Background"		//175
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -58,7 +58,7 @@
 		"zpos"			"-1"
 		"wide"			"255"
 		"tall"			"258"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"Background"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -184,7 +184,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"Background"
 
 		if_mvm
 		{
@@ -288,7 +288,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"Background"
 
 		if_mvm
 		{
@@ -543,7 +543,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"Background"
 		"PaintBackgroundType"	"0"
 
 		if_mvm

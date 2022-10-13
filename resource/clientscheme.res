@@ -1,6 +1,6 @@
-#base "scheme/m0re colors.res"
-#base "scheme/m0re fonts.res"
 #base "scheme/m0re borders.res"
+#base "scheme/m0re fonts.res"
+#base "scheme/m0re colors.res"
 
 #base "base/clientscheme.res"
 

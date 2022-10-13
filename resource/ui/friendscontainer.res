@@ -37,7 +37,7 @@
 			"ControlName"	"EditablePanel"	"fieldname"	"Background"
 			"ypos"	"2"	"wide"	"60"	"tall"	"p0.87"
 			"visible"	"1"	"enabled"	"1"
-			"PaintBackgroundType"	"0"	"bgcolor_override"	"0 0 0 160"
+			"PaintBackgroundType"	"0"	"bgcolor_override"	"Background"
 			"paintborder"	"0"
 		}
 	}

@@ -136,7 +136,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor_override"	"246 237 211 255"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"DarkBackground"
 		"border"		"ButtonBorder"
 	}
 	
