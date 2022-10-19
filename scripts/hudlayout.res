@@ -110,9 +110,9 @@
 	{	"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	}
 
 	CMainTargetID
-	{	"xpos"	"cs-0.5"	"ypos"	"r200"	"wide"	"f0"	"tall"	"50"	}
+	{	"xpos"	"cs-0.5"	"ypos"	"r220"	"wide"	"f0"	"tall"	"50"	}
 	CSecondaryTargetID
-	{	"xpos"	"cs-0.5"	"ypos"	"r166"	"wide"	"f0"	"tall"	"50"	}
+	{	"xpos"	"cs-0.5"	"ypos"	"r186"	"wide"	"f0"	"tall"	"50"	}
 	CSpectatorTargetID
 	{	"xpos"	"cs-0.5"	"ypos"	"250"	"wide"	"f0"	"tall"	"50"	} 
 	

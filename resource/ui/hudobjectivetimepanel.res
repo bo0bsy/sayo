@@ -33,7 +33,7 @@
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"ServerTimeLimitLabel"
-		"xpos"	"cs-0.5"	"ypos"	"14"	"zpos"	"3"	"wide"	"f0"	"tall"	"12"		
+		"xpos"	"cs-0.5"	"ypos"	"30"	"zpos"	"3"	"wide"	"f0"	"tall"	"12"		
 		"font"	"HudFontSmallestShadow"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		"labelText"	"%servertimeleft%"	"textAlignment"	"center"		
 		"fgcolor"	"White"
